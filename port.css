@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    
+    
+}
+
+.list-item{
+    
+    list-style-type: none;
+}
+.list-logo{
+    list-style-type: none;
+}
+.head{
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.head a{
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    
+}
+.head a:hover{
+    font-weight: bold;
+}
+.logo{
+    width: 35px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 3px;
+}
+.explore{
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    animation: fadeIn 2s;
+    
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+.profile{
+    width: 80%;
+    border-radius: 20%;
+    animation: fade 2s;
+}
+@keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 1;}
+}
+
+.parag{
+    display: flex;
+    text-align: end;
+    padding-right: 0px;
+    font-size: 13px;
+}
+.mearn{
+    font-size: 18px;
+    animation: blur 5s;
+}
+@keyframes blur {
+    0% {opacity: 0;}
+    50% {opacity: .5;}
+    100% {opacity: 1;}
+}
+
+.skill li{
+    list-style-type: none;
+}
+
+.pp{
+    text-align: start;
+    padding-right:70px ;
+    font-size: 13px;
+}
+.abt{
+    font-size: 50px;
+}
+.background{
+   background-image: url('https://st2.depositphotos.com/1084193/7151/v/450/depositphotos_71514553-stock-illustration-new-future-technology-concept-abstract.jpg');
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   background-repeat: no-repeat;
+  
+}
+.web{
+    color: white;
+}
+.LOCATION{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    background-color: rgb(211, 209, 209);
+}
+.fontt{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+.proj{
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+.passio{
+    animation: d 3s;
+}
+@keyframes d {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    75%{opacity: .5;}
+    100% {opacity: 1;}
+}
+.skill{
+    animation: s 3s;
+}
+@keyframes s {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    60%{opacity: 0;}
+    75% {opacity: .5;}
+    100% {opacity: 1;}
+}
