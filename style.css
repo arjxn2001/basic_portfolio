@@ -1,0 +1,231 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    width: 100%;
+    height: 120px;
+}
+ul li{
+    font-size: 18px;
+    color: maroon;
+}
+li i{
+    color: rgb(201, 198, 198);
+}
+
+#contactbtn{
+    border-color: white;
+    color: white;
+}
+#contactbtn:hover{
+    background-color: maroon;
+    color: white;
+    border-color: maroon;
+}
+@media(min-width:992px){
+    ul{display: flex;
+    align-items: center;
+    }
+}
+@media(max-width:992px){
+    li i{
+        visibility: hidden;
+    }
+}
+
+.main{
+    background-image: url( './image/interiors3-copy.webp' );
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.44);
+}
+.welcome{
+    padding-top: 14%;
+    padding-left: 8%;
+}
+.welcome p{
+    color: white;
+    font-size: 25px;
+}
+.welcome h1{
+    color: white;
+    font-size: 70px;
+    
+}
+@media(max-width:600px){
+    .welcome h1{
+        font-size: 30px;
+    }
+    .welcome p{
+        font-size: 18px;
+    }
+}
+#contactbtn{
+    color: white;
+    border-color: white;
+}
+
+
+
+
+
+
+.dishes{
+    background-image: url('https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 7%;
+
+}
+.card-body a{
+    color: maroon;
+    border-color: maroon;
+}
+.card-body a:hover{
+    color: white;
+    background-color: maroon;
+}
+
+/*.about-img{
+    background-image: url('https://i.pinimg.com/originals/c8/21/e6/c821e6f6a409765d5b593ec84eb06cc8.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    
+}*/
+#about{
+    background-color: rgb(219, 219, 219);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#aboutImg{
+    border: 7px solid maroon;
+    height: 490px;
+    width: 490px;
+}
+.inside{
+    padding-top: 6%;
+    padding-left: 6%;
+}
+.descr{
+    margin-right: 50x;
+}
+.h1{
+    color: maroon;
+}
+.hr{
+    width: 30%;
+    height: 5px;
+    background-color: maroon;
+}
+.p{
+    color: maroon;
+    text-align: justify;
+}
+.viewBtn{
+    border-color: maroon;
+    color: maroon;
+}
+.viewBtn:hover{
+    background-color: maroon;
+    color: white;
+}
+/* .projimg{
+    position: relative;
+    
+}
+.black{
+    width: 35%;
+     padding: 17px; 
+    color: white;
+    background-color: black;
+    position: absolute;
+    margin-top: 85.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+} */
+/* .projimg1{
+    position: relative;
+}
+.crusted{
+    width: 35%;
+    padding-right: 50%;
+    background-color: black;
+    color: white;
+   
+    
+}
+
+.seared{
+    width: 35%;
+    padding-right: 50%;
+    background-color: black;
+    color: white;
+} */
+
+.projImg{
+    position: relative;
+}
+.cajun{
+    width: 45%;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.cajun1{
+    width: 50%;
+    padding: 5px;
+    
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+
+.testimonials{
+    margin-top: 8%;
+   
+}
+.testimonials .people{
+    margin-left: 8%;
+}
+
+.testiImg{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.735);
+    width: 100%;
+    height: 450px;
+    margin-top: 8%;
+}
